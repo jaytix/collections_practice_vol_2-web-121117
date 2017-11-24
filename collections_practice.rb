@@ -93,7 +93,7 @@ def find_cool(array)
     binding.pry
     ele.values.each do |isItCool|
       if isItCool == "cool"
-        element[i]
+        ele[i]
       end
     end
   end
