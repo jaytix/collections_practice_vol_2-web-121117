@@ -107,8 +107,6 @@ def organize_schools(schools)
     school.each do |location|
       school[location].each do |city|
         binding.pry
-        if city.value == "NYC"
-        end  
       end
     end
   end
