@@ -102,9 +102,9 @@ def find_cool(array)
 end
 
 def organize_schools(schools)
-  organized_schools = {}
+  organized = {}
   schools.each_with_index do |school, i|
     binding.pry
-      organized_school[school[1].values] = school[1]
+      organized[school[1].values] = school[1]
   end
 end
