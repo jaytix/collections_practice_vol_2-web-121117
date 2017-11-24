@@ -105,6 +105,7 @@ def organize_schools(schools)
   organized = {}
   schools.each_with_index do |school, i|
     binding.pry
-      organized.push(school[1])
+      organized.push(school[1][:location])
+
   end
 end
