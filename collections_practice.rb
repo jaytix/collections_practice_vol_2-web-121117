@@ -78,7 +78,7 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
-keys[0].values.map.with_index do |key, i|
+keys.each do |key|
   binding.pry
   data[i].merge(key)
   end
