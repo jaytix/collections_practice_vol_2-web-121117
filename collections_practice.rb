@@ -81,9 +81,7 @@ def merge_data(keys, data)
 keys.each do |key|
   data.each do |info|
     binding.pry
-    if keys.first[] == info
-
-
-  data[i].merge(key)
+      
+  #data[i].merge(key)
   end
 end
