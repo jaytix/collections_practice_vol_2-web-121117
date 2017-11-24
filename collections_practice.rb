@@ -94,7 +94,7 @@ def find_cool(array)
     ele.values.each do |isItCool|
       #binding.pry
       if isItCool == "cool"
-        return newArray.push(array[i])
+        newArray.push(array[i])
       end
     end
   end
