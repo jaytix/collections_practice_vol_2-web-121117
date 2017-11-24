@@ -115,5 +115,3 @@ def organize_schools(schools)
 
   return organized
 end
-#107 array.new
-#push school[0] into new array
