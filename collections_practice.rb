@@ -78,10 +78,11 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
+array = []
 keys.each do |key|
   data.each_with_index do |info, i|
     binding.pry
-    key.merge(info[key[:first_name]])
+    array.push(key.merge(info[key[:first_name]]))
     end
   end
 end
