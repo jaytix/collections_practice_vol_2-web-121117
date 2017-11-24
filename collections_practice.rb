@@ -100,3 +100,13 @@ def find_cool(array)
   end
   return newArray
 end
+
+def organize_schools(schools)
+  organized_schools = {}
+  schools.each do |school|
+    school.each do |location|
+      if location.value == "NYC"
+      end
+    end
+  end    
+end
