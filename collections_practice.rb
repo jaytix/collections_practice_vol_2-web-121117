@@ -92,7 +92,7 @@ def find_cool(array)
   newArray = []
   array.each_with_index do |ele, i|
     ele.values.each do |isItCool|
-      #binding.pry
+      binding.pry
       if isItCool == "cool"
         newArray.push(ele[i])
       end
