@@ -81,7 +81,7 @@ def merge_data(keys, data)
 array = []
 keys.each do |key|
   data.each_with_index do |info, i|
-    binding.pry
+    #binding.pry
     array.push(key.merge(info[key[:first_name]]))
     end
   end
