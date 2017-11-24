@@ -91,6 +91,7 @@ end
 def find_cool(array)
   array.each do |element|
     if element.values == "cool"
+      binding.pry
       return element
     end
   end
