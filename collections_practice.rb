@@ -85,5 +85,5 @@ keys.each do |key|
     end
   end
 
-  return keys
+  return key
 end
