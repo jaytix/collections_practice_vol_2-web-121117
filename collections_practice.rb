@@ -109,6 +109,6 @@ def organize_schools(schools)
       if organized.include?(school[1][:location])
         school[1][:location] << school
   end
-  
+
   return organized
 end
