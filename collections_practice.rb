@@ -89,11 +89,12 @@ keys.each do |key|
 end
 
 def find_cool(array)
+  newArray = []
   array.each_with_index do |ele, i|
     ele.values.each do |isItCool|
       #binding.pry
       if isItCool == "cool"
-        return array[i]
+        return newArray.push(array[i])
       end
     end
   end
