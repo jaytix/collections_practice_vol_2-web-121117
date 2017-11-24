@@ -105,6 +105,5 @@ def organize_schools(schools)
   organized_schools = {}
   schools.each_with_index do |school, i|
       binding.pry
-    end
   end
 end
