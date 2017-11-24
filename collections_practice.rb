@@ -105,9 +105,10 @@ def organize_schools(schools)
   organized = {}
   schools.each_with_index do |school, i|
       organized.push(school[1][:location])
+        binding.pry
       if organized.include?(school[1][:location])
         school[1][:location] << school
   end
-
+  
   return organized
 end
