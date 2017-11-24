@@ -90,8 +90,8 @@ end
 
 def find_cool(array)
   array.each do |element|
-    if element.value == "cool"
+    if element.values == "cool"
       return element
     end
-  end    
+  end
 end
