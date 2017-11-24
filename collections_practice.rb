@@ -82,7 +82,3 @@ keys[0].values.map.with_index do |key, i|
   data[i].merge(key)
   end
 end
-
-#add data into key
-#flatten
-#delete 1st element
