@@ -85,4 +85,5 @@ keys.each do |key|
     array.push(key.merge(info[key[:first_name]]))
     end
   end
+  array
 end
