@@ -108,6 +108,7 @@ def organize_schools(schools)
         binding.pry
       if organized.include?(school[1][:location])
         school[1][:location] << school
+      end  
   end
 
   return organized
