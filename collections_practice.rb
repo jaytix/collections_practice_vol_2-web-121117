@@ -80,7 +80,7 @@ end
 def merge_data(keys, data)
 keys.each do |key|
   data.each_with_index do |info, i|
-    #binding.pry
+    binding.pry
     data[i].merge(info[key[:first_name]])
     end
   end
