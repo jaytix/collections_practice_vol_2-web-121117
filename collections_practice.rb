@@ -105,6 +105,6 @@ def organize_schools(schools)
   organized = {}
   schools.each_with_index do |school, i|
     binding.pry
-      organized[school[1].values] = school[1]
+      organized.push(school[1])
   end
 end
