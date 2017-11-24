@@ -105,7 +105,7 @@ def organize_schools(schools)
   organized = {}
   schools.each_with_index do |school, i|
     binding.pry
-    if organized.include?(school[i][:location])
+    if organized.include?(school[1][:location])
       organized[school[1][:location]].push(school[0])
     else
       organized[school[1][:location]] = Array.new
