@@ -109,7 +109,7 @@ def organize_schools(schools)
       organized[school[1][:location]].push(school[0])
     else
       organized[school[1][:location]] = Array.new
-      organized[school[1][:location]].push(school[i])
+      organized[school[1][:location]].push(school[0])
     end
   end
 
