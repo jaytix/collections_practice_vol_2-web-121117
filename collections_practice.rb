@@ -84,6 +84,4 @@ keys.each do |key|
     key.merge(info[key[:first_name]])
     end
   end
-
-  return key
 end
