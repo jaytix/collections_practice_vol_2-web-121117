@@ -79,6 +79,7 @@ end
 
 def merge_data(keys, data)
 keys[0].values.map.with_index do |key, i|
-  data[i].merge(key) binding.pry
+  data[i].merge(key)
+  binding.pry
   end
 end
