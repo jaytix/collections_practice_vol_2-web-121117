@@ -89,9 +89,9 @@ keys.each do |key|
 end
 
 def find_cool(array)
-  array.each_with_index do |element, i|
+  array.each_with_index do |ele, i|
     binding.pry
-    element.values.each do |isItCool|
+    ele.values.each do |isItCool|
       if isItCool == "cool"
         element[i]
       end
